@@ -1,4 +1,4 @@
-{{basename}}
+{{capitalcase basename}}
 --------------
 
 {{description}}
