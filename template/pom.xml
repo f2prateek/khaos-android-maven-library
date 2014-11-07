@@ -33,7 +33,7 @@
     <butterknife.version>6.0.0</butterknife.version>
     <junit.version>4.10</junit.version>
     <robolectric.version>2.2</robolectric.version>
-    <fest.version>1.7.0</fest.version>
+    <assertj.version>1.7.0</assertj.version>
   </properties>
 
   <scm>
