@@ -39,10 +39,12 @@ This will prompt you for the following:
 
 ![Screenshot](https://photos-4.dropbox.com/t/1/AAD3PPZtVQCOOxyDaUuXUD55W8YjXGoyT5xSQbo4XXIKBg/12/11371156/png/1024x768/3/1415386800/0/2/Screenshot%202014-11-07%2010.27.13.png/jF8twFHCLzKv3wJ-JeRpn4EI--4bgiPNRqDBL3Wl1jk)
 
+You'll have to manually create a package structure, but everything other than should work right away!
+
 
 TODO
 ====
-* Generate directory structure based on package name
+* Generate package directory structure based on package name
 
 
 License
