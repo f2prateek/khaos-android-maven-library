@@ -1,4 +1,4 @@
-package {{mavenGroupId}}.sample;
+package {{packageName}}.sample;
 
 import android.app.Activity;
 import android.os.Bundle;

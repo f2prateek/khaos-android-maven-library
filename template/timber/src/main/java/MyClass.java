@@ -1,4 +1,4 @@
-package {{mavenGroupId}};
+package {{packageName}};
 
 /** {{description}} */
 public class MyClass {

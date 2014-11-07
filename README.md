@@ -28,7 +28,7 @@ If you haven't saved the template locally, you can also use the command below to
 This will prompt you for the following:
 
          description: A one-liner about what your project will do. This will be used in the generated pom and Readme.
-        mavenGroupId: The group ID on maven sonatype that you want to publish this to. This will also be used as the package name for the generated classes.
+         packageName: The Java package name it should live under. This will also be used as the Maven groupId.
                owner: Your full name, used in the pom and in the genrated copyright.
       githubUserName: Your Github username
 

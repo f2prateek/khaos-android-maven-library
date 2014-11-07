@@ -1,4 +1,4 @@
-package {{mavenGroupId}};
+package {{packageName}};
 
 import org.junit.After;
 import org.junit.Before;

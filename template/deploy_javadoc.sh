@@ -3,7 +3,7 @@
 set -ex
 
 REPO="git@github.com:{{githubUserName}}/{{basename}}.git"
-GROUP_ID="{{mavenGroupId}}"
+GROUP_ID="{{packageName}}"
 ARTIFACT_ID="{{basename}}"
 
 DIR=temp-clone
