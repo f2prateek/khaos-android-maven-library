@@ -6,17 +6,24 @@ A [Khaos](https://github.com/segmentio/khaos) template to start new Android Libr
 Installation
 ============
 
+Make sure you have node installed.
+
 Save the template locally with:
 
     $ khaos --save f2prateek/khaos-android-maven-library android-maven-library
 
+This is optional, you can directly create projects from the Github repo too.
 
 Usage
 =====
 
-Create a new  project with:
+Create a new project with:
 
     $ khaos android-maven-library my-project
+
+If you haven't saved the template locally, you can also use the command below to generate a project.
+
+    $ khaos create f2prateek/khaos-android-maven-library my-project
 
 This will prompt you for the following:
 
@@ -25,6 +32,10 @@ This will prompt you for the following:
            projectId: The project ID on sonatype you want this project to fall into.
                owner: Your full name, used in the pom and in the genrated copyright.
       githubUserName: Your Github username
+
+TODO
+====
+* Generate directory structure based on package name
 
 License
 =======
