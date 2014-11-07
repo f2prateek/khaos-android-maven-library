@@ -1,4 +1,4 @@
-{{name}}
+{{basename}}
 --------------
 
 {{description}}
@@ -18,13 +18,13 @@ Download [the latest JAR][2] or grab via Maven:
 ```xml
 <dependency>
   <groupId>{{mavenGroupId}}</groupId>
-  <artifactId>{{projectId}}</artifactId>
+  <artifactId>{{basename}}</artifactId>
   <version>1.0.0</version>
 </dependency>
 ```
 or Gradle:
 ```groovy
-compile '{{mavenGroupId}}:{{projectId}}:1.0.0'
+compile '{{mavenGroupId}}:{{basename}}:1.0.0'
 ```
 
 
@@ -47,5 +47,5 @@ License
 
 
 
- [1]: http://github.com/{{githubUserName}}/{{projectId}}
- [2]: http://repository.sonatype.org/service/local/artifact/maven/redirect?r=central-proxy&g={{mavenGroupId}}&a={{projectId}}&v=LATEST
+ [1]: http://github.com/{{githubUserName}}/{{basename}}
+ [2]: http://repository.sonatype.org/service/local/artifact/maven/redirect?r=central-proxy&g={{mavenGroupId}}&a={{basename}}&v=LATEST

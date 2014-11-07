@@ -2,9 +2,9 @@
 
 set -ex
 
-REPO="git@github.com:{{githubUserName}}/{{projectId}}.git"
+REPO="git@github.com:{{githubUserName}}/{{basename}}.git"
 GROUP_ID="{{mavenGroupId}}"
-ARTIFACT_ID="{{projectId}}"
+ARTIFACT_ID="{{basename}}"
 
 DIR=temp-clone
 

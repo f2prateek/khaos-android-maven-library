@@ -5,18 +5,18 @@
 
   <parent>
     <groupId>{{mavenGroupId}}</groupId>
-    <artifactId>{{projectId}}-parent</artifactId>
+    <artifactId>{{basename}}-parent</artifactId>
     <version>2.4.2-SNAPSHOT</version>
   </parent>
 
-  <artifactId>{{projectId}}-sample</artifactId>
+  <artifactId>{{basename}}-sample</artifactId>
   <name>{{basename}} Sample</name>
   <packaging>apk</packaging>
 
   <dependencies>
     <dependency>
       <groupId>{{mavenGroupId}}</groupId>
-      <artifactId>{{projectId}}</artifactId>
+      <artifactId>{{basename}}</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
