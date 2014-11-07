@@ -1,0 +1,179 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'khaos' ]
+2 info using npm@2.1.6
+3 info using node@v0.10.33
+4 verbose node symlink /usr/local/bin/node
+5 silly cache add args [ 'khaos', null ]
+6 verbose cache add spec khaos
+7 silly cache add parsed spec { raw: 'khaos',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'khaos',
+7 silly cache add   rawSpec: '',
+7 silly cache add   spec: '*',
+7 silly cache add   type: 'range' }
+8 verbose addNamed khaos@*
+9 silly addNamed semver.valid null
+10 silly addNamed semver.validRange *
+11 silly addNameRange { name: 'khaos', range: '*', hasData: false }
+12 verbose mapToRegistry name khaos
+13 verbose mapToRegistry uri https://registry.npmjs.org/khaos
+14 verbose addNameRange registry:https://registry.npmjs.org/khaos not in flight; fetching
+15 verbose request on initialization, where is /khaos
+16 verbose request after pass 1, where is /khaos
+17 verbose request url raw /khaos
+18 verbose request resolving registry [ 'https://registry.npmjs.org/', './khaos' ]
+19 verbose request after pass 2, where is https://registry.npmjs.org/khaos
+20 verbose request no auth needed
+21 info attempt registry request try #1 at 09:25:11
+22 verbose request id 449234b861ddfcac
+23 verbose etag "DFTQ2XAMWIT893XVE2TVRERZC"
+24 http request GET https://registry.npmjs.org/khaos
+25 http 304 https://registry.npmjs.org/khaos
+26 silly registry.get cb [ 304,
+26 silly registry.get   { date: 'Fri, 07 Nov 2014 16:25:14 GMT',
+26 silly registry.get     server: 'Apache',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     'last-modified': 'Fri, 07 Nov 2014 16:25:14 GMT',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     etag: '"DFTQ2XAMWIT893XVE2TVRERZC"',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-ord1731-ORD',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1415377514.814844,VS0,VE162',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'content-length': '0',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 verbose etag https://registry.npmjs.org/khaos from cache
+28 silly addNameRange number 2 { name: 'khaos', range: '*', hasData: true }
+29 silly addNameRange versions [ 'khaos',
+29 silly addNameRange   [ '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '0.1.3',
+29 silly addNameRange     '0.1.4',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.3.1',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.5.1',
+29 silly addNameRange     '0.5.2',
+29 silly addNameRange     '0.5.3',
+29 silly addNameRange     '0.5.4',
+29 silly addNameRange     '0.6.0',
+29 silly addNameRange     '0.6.1' ] ]
+30 verbose addNamed khaos@0.6.1
+31 silly addNamed semver.valid 0.6.1
+32 silly addNamed semver.validRange 0.6.1
+33 silly cache afterAdd khaos@0.6.1
+34 verbose afterAdd /Users/prateek/.npm/khaos/0.6.1/package/package.json not in flight; writing
+35 verbose afterAdd /Users/prateek/.npm/khaos/0.6.1/package/package.json written
+36 silly install resolved [ { name: 'khaos',
+36 silly install resolved     repository: { type: 'git', url: 'git://github.com/segmentio/khaos.git' },
+36 silly install resolved     version: '0.6.1',
+36 silly install resolved     license: 'MIT',
+36 silly install resolved     description: 'A super-simple way to generate directory or file templates.',
+36 silly install resolved     main: 'lib/index.js',
+36 silly install resolved     bin: { khaos: 'bin/khaos' },
+36 silly install resolved     scripts: { test: 'make test' },
+36 silly install resolved     dependencies:
+36 silly install resolved      { case: 'git://github.com/ianstormtaylor/case#1.0.0',
+36 silly install resolved        chalk: '~0.4.0',
+36 silly install resolved        commander: '^2.1.0',
+36 silly install resolved        cp: '~0.1.1',
+36 silly install resolved        'deep-extend': '~0.2.10',
+36 silly install resolved        'download-github-repo': '~0.0.1',
+36 silly install resolved        extend: '^1.2.1',
+36 silly install resolved        'fs-extra': '~0.8.1',
+36 silly install resolved        handlebars: '^2.0.0',
+36 silly install resolved        metalsmith: '~0.11.0',
+36 silly install resolved        'metalsmith-build-date': '~0.1.0',
+36 silly install resolved        'metalsmith-prompt': '~0.0.8',
+36 silly install resolved        'metalsmith-templates': '~0.2.0',
+36 silly install resolved        mkdirp: '~0.4.0',
+36 silly install resolved        moment: '^2.5.1',
+36 silly install resolved        'read-metadata': '^1.0.0',
+36 silly install resolved        rimraf: '^2.2.6',
+36 silly install resolved        uid: '~0.0.2' },
+36 silly install resolved     devDependencies:
+36 silly install resolved      { mocha: '^1.17.1',
+36 silly install resolved        'assert-dir-equal': '^1.0.0',
+36 silly install resolved        once: '^1.3.0' },
+36 silly install resolved     keywords:
+36 silly install resolved      [ 'template',
+36 silly install resolved        'generator',
+36 silly install resolved        'directory',
+36 silly install resolved        'folder',
+36 silly install resolved        'scaffold',
+36 silly install resolved        'boilerplate' ],
+36 silly install resolved     gitHead: '88b7cc7d3c219f55db0f84324cc3a8066cf942dd',
+36 silly install resolved     bugs: { url: 'https://github.com/segmentio/khaos/issues' },
+36 silly install resolved     homepage: 'https://github.com/segmentio/khaos',
+36 silly install resolved     _id: 'khaos@0.6.1',
+36 silly install resolved     _shasum: '590f7f61f2d6a3fc4bbe882b534fb6c19ea794ee',
+36 silly install resolved     _from: 'khaos@*',
+36 silly install resolved     _npmVersion: '2.0.0',
+36 silly install resolved     _npmUser: { name: 'ianstormtaylor', email: 'ian@ianstormtaylor.com' },
+36 silly install resolved     maintainers: [ [Object], [Object] ],
+36 silly install resolved     dist:
+36 silly install resolved      { shasum: '590f7f61f2d6a3fc4bbe882b534fb6c19ea794ee',
+36 silly install resolved        tarball: 'http://registry.npmjs.org/khaos/-/khaos-0.6.1.tgz' },
+36 silly install resolved     directories: {},
+36 silly install resolved     _resolved: 'https://registry.npmjs.org/khaos/-/khaos-0.6.1.tgz',
+36 silly install resolved     readme: 'ERROR: No README data found!' } ]
+37 info install khaos@0.6.1 into /usr/local/lib
+38 info installOne khaos@0.6.1
+39 verbose installOne of khaos to /usr/local/lib not in flight; installing
+40 verbose lock using /Users/prateek/.npm/_locks/khaos-db206008db32677b.lock for /usr/local/lib/node_modules/khaos
+41 silly install write writing khaos 0.6.1 to /usr/local/lib/node_modules/khaos
+42 silly cache addNamed cb khaos@0.6.1
+43 verbose unbuild lib/node_modules/khaos
+44 info preuninstall khaos@0.6.1
+45 info uninstall khaos@0.6.1
+46 verbose unbuild rmStuff khaos@0.6.1 from /usr/local/lib/node_modules
+47 verbose /usr/local/bin,[object Object] binRoot
+48 verbose gentlyRm verifying that /usr/local/lib/node_modules/khaos is managed by npm
+49 silly cacheAndTest /usr/local/lib/node_modules/khaos is inside /usr/local/lib/node_modules
+50 silly gentlyRm /usr/local/lib/node_modules/khaos is managed by npm
+51 silly gentlyRm /usr/local/bin/khaos is not under /usr/local/lib/node_modules/khaos
+52 silly gentlyRm checking to see if /usr/local/bin/khaos is a link
+53 info postuninstall khaos@0.6.1
+54 verbose gentlyRm vacuuming /usr/local/lib/node_modules/khaos
+55 silly gentlyRm purging /usr/local/lib/node_modules/khaos
+56 verbose unlock done using /Users/prateek/.npm/_locks/khaos-db206008db32677b.lock for /usr/local/lib/node_modules/khaos
+57 verbose stack Error: EACCES, unlink '/usr/local/lib/node_modules/khaos/.npmignore'
+58 verbose cwd /Users/prateek/dev/f2prateek/maven-template/template
+59 error Darwin 14.0.0
+60 error argv "node" "/usr/local/bin/npm" "install" "-g" "khaos"
+61 error node v0.10.33
+62 error npm  v2.1.6
+63 error path /usr/local/lib/node_modules/khaos/.npmignore
+64 error code EACCES
+65 error errno 3
+66 error Error: EACCES, unlink '/usr/local/lib/node_modules/khaos/.npmignore'
+66 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/khaos/.npmignore']
+66 error   errno: 3,
+66 error   code: 'EACCES',
+66 error   path: '/usr/local/lib/node_modules/khaos/.npmignore' }
+67 error Please try running this command again as root/Administrator.
+68 verbose exit [ 3, true ]
+69 verbose unbuild lib/node_modules/khaos
+70 info preuninstall khaos@0.6.1
+71 info uninstall khaos@0.6.1
+72 verbose unbuild rmStuff khaos@0.6.1 from /usr/local/lib/node_modules
+73 verbose /usr/local/bin,[object Object] binRoot
+74 verbose gentlyRm verifying that /usr/local/lib/node_modules/khaos is managed by npm
+75 silly isManaged /usr/local/lib/node_modules/khaos is inside /usr/local/lib/node_modules
+76 silly gentlyRm /usr/local/lib/node_modules/khaos is managed by npm
+77 silly gentlyRm /usr/local/bin/khaos is not under /usr/local/lib/node_modules/khaos
+78 silly gentlyRm checking to see if /usr/local/bin/khaos is a link
+79 info postuninstall khaos@0.6.1
+80 verbose gentlyRm vacuuming /usr/local/lib/node_modules/khaos
+81 silly gentlyRm purging /usr/local/lib/node_modules/khaos
+82 error error rolling back Error: EACCES, unlink '/usr/local/lib/node_modules/khaos/.npmignore'
+82 error error rolling back  { [Error: EACCES, unlink '/usr/local/lib/node_modules/khaos/.npmignore']
+82 error error rolling back   errno: 3,
+82 error error rolling back   code: 'EACCES',
+82 error error rolling back   path: '/usr/local/lib/node_modules/khaos/.npmignore' }
