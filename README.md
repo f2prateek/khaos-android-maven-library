@@ -3,16 +3,21 @@ khaos-android-maven-library
 
 A [Khaos](https://github.com/segmentio/khaos) template to start new Android Libraries built with Maven quickly.
 
+
 Installation
 ============
 
-Make sure you have node installed.
+Install Node and khaos if you haven't already done so:
+
+    $ brew install node
+    $ npm install -g khaos
 
 Save the template locally with:
 
     $ khaos --save f2prateek/khaos-android-maven-library android-maven-library
 
 This is optional, you can directly create projects from the Github repo too.
+
 
 Usage
 =====
@@ -32,9 +37,13 @@ This will prompt you for the following:
                owner: Your full name, used in the pom and in the genrated copyright.
       githubUserName: Your Github username
 
+![Image of Yaktocat](https://photos-4.dropbox.com/t/1/AAD3PPZtVQCOOxyDaUuXUD55W8YjXGoyT5xSQbo4XXIKBg/12/11371156/png/1024x768/3/1415386800/0/2/Screenshot%202014-11-07%2010.27.13.png/jF8twFHCLzKv3wJ-JeRpn4EI--4bgiPNRqDBL3Wl1jk)
+
+
 TODO
 ====
 * Generate directory structure based on package name
+
 
 License
 =======
