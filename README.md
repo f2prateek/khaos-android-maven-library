@@ -37,7 +37,7 @@ This will prompt you for the following:
                owner: Your full name, used in the pom and in the genrated copyright.
       githubUserName: Your Github username
 
-![Image of Yaktocat](https://photos-4.dropbox.com/t/1/AAD3PPZtVQCOOxyDaUuXUD55W8YjXGoyT5xSQbo4XXIKBg/12/11371156/png/1024x768/3/1415386800/0/2/Screenshot%202014-11-07%2010.27.13.png/jF8twFHCLzKv3wJ-JeRpn4EI--4bgiPNRqDBL3Wl1jk)
+![Screenshot](https://photos-4.dropbox.com/t/1/AAD3PPZtVQCOOxyDaUuXUD55W8YjXGoyT5xSQbo4XXIKBg/12/11371156/png/1024x768/3/1415386800/0/2/Screenshot%202014-11-07%2010.27.13.png/jF8twFHCLzKv3wJ-JeRpn4EI--4bgiPNRqDBL3Wl1jk)
 
 
 TODO
